@@ -23,7 +23,7 @@ public class StepHooks {
         basePage = helper
                 .getBasePage()
                 .initialiseBrowser()
-                .setUpBrowser();
+                 .setUpBrowser();
 
     }
 

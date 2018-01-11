@@ -34,9 +34,7 @@ public class SearchedItemDetailPage extends BasePage {
         List<WebElement> priceTags = driver.findElements(priceField);
         for (WebElement priceTag : priceTags) {
             if (priceTag.getText().contains(price)){
-
                 realPrice = priceTag.getText();
-                //realPrice = Float.parseFloat(priceTag.getText());
                 break;
 
 
@@ -46,19 +44,13 @@ public class SearchedItemDetailPage extends BasePage {
     }
 
     public SearchedItemDetailPage filterItemByBrand(String name){
-
         driver.findElement(brandField).click();
-
         driver.findElement(selectBrandField).click();
-
         driver.findElement(applyFilterButtonField).click();
-
         return new SearchedItemDetailPage(driver);
     }
 
     public boolean validateFilter(String brand){
-
-
         WebElement brandElement = driver.findElement(brandNameField);
         return brandElement.getText().toLowerCase().contains(brand.toLowerCase());
     }
