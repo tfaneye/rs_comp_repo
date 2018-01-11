@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+@wip
+Feature: Filter search by brand name
+  As a customer
+  I want to filter a search
+  So that I can group them by brand names
+
+  Scenario: Filter a search by brand name test
+    Given I have searched for a product by category "<categoryName>"
+    When I filter by brand "<name>"
+    Then I should see the "<brand>" in the description
+    
+=======
 @regression
 Feature: Filter search by Glove Material
 As a customer
@@ -11,3 +24,4 @@ Scenario Outline: Filter a search by glove material test
     Examples: Test data
     |categoryName|name|gloveMaterial|
     |Reusable gloves|Acrylic|Acrylic|
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a

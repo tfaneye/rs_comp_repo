@@ -21,8 +21,8 @@ public class FilterASearchByBrandTestSteps {
         this.helper = helper;
     }
 
-    @Given("^I a have searched for a product by category \"([^\"]*)\"$")
-    public void iAHaveSearchedForAProductByCategory(String categoryName) throws Throwable {
+    @Given("^I have searched for a product by category \"([^\"]*)\"$")
+    public void iHaveSearchedForAProductByCategory(String categoryName) throws Throwable {
         searchedItemDetailPage = helper
                 .getBasePage()
                 .loadHomePage()
