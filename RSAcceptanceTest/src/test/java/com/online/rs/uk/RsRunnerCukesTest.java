@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber-reports/report-xml.xml"},
         features = {"src/test/resources"}
         ,snippets = SnippetType.CAMELCASE
-        ,tags = {"@wip"}
+        ,tags = {"@regression"}
 )
 
 public class RsRunnerCukesTest {
