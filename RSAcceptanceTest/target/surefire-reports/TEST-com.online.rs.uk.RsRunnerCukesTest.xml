@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite tests="16" failures="2" name="com.online.rs.uk.RsRunnerCukesTest" time="0.486" errors="2" skipped="0">
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.online.rs.uk.RsRunnerCukesTest" time="0.762" tests="16" errors="2" skipped="0" failures="0">
+>>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jdk1.8.0_151/jre/lib/amd64"/>
@@ -62,6 +67,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
+<<<<<<< HEAD
   <testcase classname="| Reusable gloves | Ansell | Ansell |" name="Given I a have searched for a product by category &quot;Reusable gloves&quot;" time="0.008"/>
   <testcase classname="| Reusable gloves | Ansell | Ansell |" name="When I filter by brand &quot;Ansell&quot;" time="0"/>
   <testcase classname="| Reusable gloves | Ansell | Ansell |" name="Then I should see the &quot;Ansell&quot; in the description" time="0.03">
@@ -75,15 +81,29 @@ System info: host: &apos;inettech-Inspiron-15-3552&apos;, ip: &apos;127.0.1.1&ap
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
 Session ID: 06f986fc3faddf0fc480ba785f939b03" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+=======
+  <testcase name="Given I a have searched for a product by category &quot;Reusable gloves&quot;" classname="| Reusable gloves | Ansell | Ansell |" time="0.003"/>
+  <testcase name="When I filter by brand &quot;Ansell&quot;" classname="| Reusable gloves | Ansell | Ansell |" time="0.001"/>
+  <testcase name="Then I should see the &quot;Ansell&quot; in the description" classname="| Reusable gloves | Ansell | Ansell |" time="0.041">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=63.0.3239.84)&#10;  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;inettech-VirtualBox&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-104-generic&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}&#10;Session ID: a48ee1ec12d2e825511fb09e27da4f47" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+>>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
   (Session info: chrome=63.0.3239.84)
   (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-26-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+<<<<<<< HEAD
 Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
 System info: host: &apos;inettech-Inspiron-15-3552&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-26-generic&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
 Session ID: 06f986fc3faddf0fc480ba785f939b03
+=======
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'inettech-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-104-generic', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: a48ee1ec12d2e825511fb09e27da4f47
+>>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -100,15 +120,24 @@ Session ID: 06f986fc3faddf0fc480ba785f939b03
 	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
 	at com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:63)
 	at com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)
+<<<<<<< HEAD
 	at ✽.Then I should see the &quot;Ansell&quot; in the description(rs_features/FilterSearchByBrand.feature:10)
 </error>
   </testcase>
   <testcase classname="| Reusable gloves | Ansell | Ansell |" name="| Reusable gloves | Ansell | Ansell |" time="0.053">
     <error message="stale element reference: element is not attached to the page document
+=======
+	at ✽.Then I should see the "Ansell" in the description(rs_features/FilterSearchByBrand.feature:10)
+</error>
+  </testcase>
+  <testcase name="| Reusable gloves | Ansell | Ansell |" classname="| Reusable gloves | Ansell | Ansell |" time="0.057">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=63.0.3239.84)&#10;  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;inettech-VirtualBox&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-104-generic&apos;, java.version: &apos;1.8.0_111&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}&#10;Session ID: a48ee1ec12d2e825511fb09e27da4f47" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+>>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
   (Session info: chrome=63.0.3239.84)
   (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-26-generic x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+<<<<<<< HEAD
 Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
 System info: host: &apos;inettech-Inspiron-15-3552&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.13.0-26-generic&apos;, java.version: &apos;1.8.0_151&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
@@ -123,6 +152,13 @@ System info: host: &apos;inettech-Inspiron-15-3552&apos;, ip: &apos;127.0.1.1&ap
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
 Session ID: 06f986fc3faddf0fc480ba785f939b03
+=======
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'inettech-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-104-generic', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
+Session ID: a48ee1ec12d2e825511fb09e27da4f47
+>>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -139,6 +175,7 @@ Session ID: 06f986fc3faddf0fc480ba785f939b03
 	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
 	at com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:63)
 	at com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)
+<<<<<<< HEAD
 	at ✽.Then I should see the &quot;Ansell&quot; in the description(rs_features/FilterSearchByBrand.feature:10)
 </error>
   </testcase>
@@ -170,4 +207,21 @@ Session ID: 06f986fc3faddf0fc480ba785f939b03
   <testcase classname="Scenario: Search for an item by stock number test" name="When I search for an item by RS stock &quot;912-0239&quot; and &quot;1&quot; and click on Add to Basket button" time="0"/>
   <testcase classname="Scenario: Search for an item by stock number test" name="Then I should be able to see details of the item searched &quot;FLIR E4 Thermal Imaging Camera, Temp Range: -20 → +250 °C 80 x 60pixel RS Cal&quot; in the basket" time="0"/>
   <testcase classname="Scenario: Search for an item by stock number test" name="Scenario: Search for an item by stock number test" time="0.22"/>
+=======
+	at ✽.Then I should see the "Ansell" in the description(rs_features/FilterSearchByBrand.feature:10)
+</error>
+  </testcase>
+  <testcase name="Given I a have searched for a particular product by category &quot;Reusable gloves&quot;" classname="| Reusable gloves | One Size | One Size |" time="0.001"/>
+  <testcase name="When I filter by glove size &quot;One Size&quot;" classname="| Reusable gloves | One Size | One Size |" time="0"/>
+  <testcase name="Then I should see the &quot;One Size&quot; in the Glove Size section" classname="| Reusable gloves | One Size | One Size |" time="0"/>
+  <testcase name="| Reusable gloves | One Size | One Size |" classname="| Reusable gloves | One Size | One Size |" time="0.192"/>
+  <testcase name="Given I am on the home page of the application" classname="Scenario: Search for an item test" time="0.002"/>
+  <testcase name="When I search for an item by name" classname="Scenario: Search for an item test" time="0.014"/>
+  <testcase name="Then I should be able to see the Item price" classname="Scenario: Search for an item test" time="0.001"/>
+  <testcase name="Scenario: Search for an item test" classname="Scenario: Search for an item test" time="0.248"/>
+  <testcase name="Given I am on the default page of the application" classname="Scenario: Search for an item by stock number test" time="0.001"/>
+  <testcase name="When I search for an item by RS stock &quot;912-0239&quot; and &quot;1&quot; and click on Add to Basket button" classname="Scenario: Search for an item by stock number test" time="0"/>
+  <testcase name="Then I should be able to see details of the item searched &quot;FLIR E4 Thermal Imaging Camera, Temp Range: -20 → +250 °C 80 x 60pixel RS Cal&quot; in the basket" classname="Scenario: Search for an item by stock number test" time="0.001"/>
+  <testcase name="Scenario: Search for an item by stock number test" classname="Scenario: Search for an item by stock number test" time="0.2"/>
+>>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
 </testsuite>
