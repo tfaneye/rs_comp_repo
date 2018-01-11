@@ -1,6 +1,5 @@
 com/online/rs/uk/pages/MyBasketPage.class
-com/online/rs/uk/support/WorldHelper.class
-com/online/rs/uk/App.class
-com/online/rs/uk/pages/SearchedItemDetailPage.class
 com/online/rs/uk/pages/BasePage.class
 com/online/rs/uk/pages/HomePage.class
+com/online/rs/uk/support/WorldHelper.class
+com/online/rs/uk/pages/SearchedItemDetailPage.class
