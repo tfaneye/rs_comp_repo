@@ -1,0 +1,7 @@
+/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/SearchForAnItemTestSteps.java
+/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/RsTest.java
+/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/FilterSearchByGloveSizeTestSteps.java
+/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/SearchForItemByStockNumberTestSteps.java
+/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/FilterASearchByBrandTestSteps.java
+/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/hooks/StepHooks.java
+/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/RsRunnerCukesTest.java
