@@ -26,7 +26,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="RSAcceptanceTest" target="1.8" />
+      <module name="RSAcceptanceTest" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

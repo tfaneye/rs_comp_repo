@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: com.online.rs.uk.RsRunnerCukesTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 16, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 113.399 sec <<< FAILURE! - in com.online.rs.uk.RsRunnerCukesTest
 Then I should see the "Ansell" in the description(| Reusable gloves | Ansell | Ansell |)  Time elapsed: 0.034 sec  <<< ERROR!
 org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
@@ -118,3 +119,6 @@ Session ID: 0fbabd25f81714dded18894177b04055
 	at com.online.rs.uk.rs_testSteps.SearchForItemByStockNumberTestSteps.iShouldBeAbleToSeeDetailsOfTheItemSearchedInTheBasket(SearchForItemByStockNumberTestSteps.java:43)
 	at ✽.Then I should be able to see details of the item searched "FLIR E4 Thermal Imaging Camera, Temp Range: -20 → +250 °C 80 x 60pixel RS Cal" in the basket(rs_features/SearchForItemByRSStockNumber.feature:10)
 
+=======
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 247.116 sec
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a

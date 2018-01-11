@@ -1,4 +1,153 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("rs_features/FilterSearchByBrand.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("rs_features/FilterGloveSearchBySafety.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Filter search by Glove Material",
+  "description": "As a customer\nI want to filter asearch\nSo that I can group items into glove material category",
+  "id": "filter-search-by-glove-material",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@regression"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "line": 7,
+  "name": "Filter a search by glove material test",
+  "description": "",
+  "id": "filter-search-by-glove-material;filter-a-search-by-glove-material-test",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 8,
+  "name": "I have searched for an item by category \"\u003ccategoryName\u003e\"",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "I filter by Glove Material \"\u003cname\u003e\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "I should see the \"\u003cgloveMaterial\u003e\" in Glove Material column",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 11,
+  "name": "Test data",
+  "description": "",
+  "id": "filter-search-by-glove-material;filter-a-search-by-glove-material-test;test-data",
+  "rows": [
+    {
+      "cells": [
+        "categoryName",
+        "name",
+        "gloveMaterial"
+      ],
+      "line": 12,
+      "id": "filter-search-by-glove-material;filter-a-search-by-glove-material-test;test-data;1"
+    },
+    {
+      "cells": [
+        "Reusable gloves",
+        "Acrylic",
+        "Acrylic"
+      ],
+      "line": 13,
+      "id": "filter-search-by-glove-material;filter-a-search-by-glove-material-test;test-data;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 14778127752,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 13,
+  "name": "Filter a search by glove material test",
+  "description": "",
+  "id": "filter-search-by-glove-material;filter-a-search-by-glove-material-test;test-data;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I have searched for an item by category \"Reusable gloves\"",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 9,
+  "name": "I filter by Glove Material \"Acrylic\"",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 10,
+  "name": "I should see the \"Acrylic\" in Glove Material column",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Reusable gloves",
+      "offset": 41
+    }
+  ],
+  "location": "FilterGloveSearchBySafetyTestSteps.iHaveSearchedForAnItemByCategory(String)"
+});
+formatter.result({
+  "duration": 20130604800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Acrylic",
+      "offset": 28
+    }
+  ],
+  "location": "FilterGloveSearchBySafetyTestSteps.iFilterByGloveMaterial(String)"
+});
+formatter.result({
+  "duration": 4720604548,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Acrylic",
+      "offset": 18
+    }
+  ],
+  "location": "FilterGloveSearchBySafetyTestSteps.iShouldSeeTheInGloveMaterialColumn(String)"
+});
+formatter.result({
+  "duration": 1905301127,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 351622793,
+  "status": "passed"
+});
+formatter.uri("rs_features/FilterSearchByBrand.feature");
 formatter.feature({
   "line": 2,
   "name": "Filter search by brand name",
@@ -63,7 +212,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
+<<<<<<< HEAD
   "duration": 12441493193,
+=======
+  "duration": 7207951259,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.scenario({
@@ -114,7 +267,11 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iAHaveSearchedForAProductByCategory(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 17023856696,
+=======
+  "duration": 23374602835,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +284,11 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iFilterByBrand(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 2289336672,
+=======
+  "duration": 3678364753,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.match({
@@ -140,12 +301,20 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 2121820028,
   "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d63.0.3239.84)\n  (Driver info: chromedriver\u003d2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform\u003dLinux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027inettech-VirtualBox\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.4.0-104-generic\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}\nSession ID: d6417f8f6eb8c1f4534014857db534e3\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)\n\tat com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:55)\n\tat com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)\n\tat ✽.Then I should see the \"Ansell\" in the description(rs_features/FilterSearchByBrand.feature:10)\n",
   "status": "failed"
 });
 formatter.after({
   "duration": 278462124,
+=======
+  "duration": 3454617379,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 309919659,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.uri("rs_features/FilterSearchByGloveSize.feature");
@@ -213,7 +382,11 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
+<<<<<<< HEAD
   "duration": 5899859916,
+=======
+  "duration": 7206403053,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.scenario({
@@ -264,7 +437,11 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iAHaveSearchedForAParticularProductByCategory(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 16619959117,
+=======
+  "duration": 20968474640,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.match({
@@ -277,7 +454,11 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iFilterByGloveSize(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 2296406840,
+=======
+  "duration": 3345204885,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.match({
@@ -290,11 +471,19 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iShouldSeeTheInTheGloveSizeSection(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 897973134,
   "status": "passed"
 });
 formatter.after({
   "duration": 167627175,
+=======
+  "duration": 1607426631,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 227779372,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.uri("rs_features/SearchForAnItemByName.feature");
@@ -312,7 +501,11 @@ formatter.feature({
   ]
 });
 formatter.before({
+<<<<<<< HEAD
   "duration": 5649055941,
+=======
+  "duration": 7323328119,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.scenario({
@@ -370,26 +563,42 @@ formatter.match({
   "location": "SearchForAnItemTestSteps.iAmOnTheHomePageOfTheApplication()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 5528817028,
+=======
+  "duration": 9957811957,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.match({
   "location": "SearchForAnItemTestSteps.iSearchForAnItemByName(DataTable)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 13439486449,
+=======
+  "duration": 23603036090,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.match({
   "location": "SearchForAnItemTestSteps.iShouldBeAbleToSeeTheItemPrice(DataTable)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 448252298,
   "error_message": "java.lang.AssertionError: no such price expected:\u003c£11.01\u003e but was:\u003cnull\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat com.online.rs.uk.rs_testSteps.SearchForAnItemTestSteps.iShouldBeAbleToSeeTheItemPrice(SearchForAnItemTestSteps.java:51)\n\tat ✽.Then I should be able to see the Item price(rs_features/SearchForAnItemByName.feature:12)\n",
   "status": "failed"
 });
 formatter.after({
   "duration": 249243088,
+=======
+  "duration": 1321444416,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 377918747,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.uri("rs_features/SearchForItemByRSStockNumber.feature");
@@ -407,7 +616,11 @@ formatter.feature({
   ]
 });
 formatter.before({
+<<<<<<< HEAD
   "duration": 6054513350,
+=======
+  "duration": 7842963256,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.scenario({
@@ -437,7 +650,11 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iAmOnTheDefaultPageOfTheApplication()"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 10471519053,
+=======
+  "duration": 8654571620,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.match({
@@ -454,7 +671,11 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iSearchForAnItemByRSStockAndAndClickOnAddToBasketButton(String,String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 7773388583,
+=======
+  "duration": 11780549221,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 formatter.match({
@@ -467,11 +688,19 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iShouldBeAbleToSeeDetailsOfTheItemSearchedInTheBasket(String)"
 });
 formatter.result({
+<<<<<<< HEAD
   "duration": 25713554769,
   "status": "passed"
 });
 formatter.after({
   "duration": 228789720,
+=======
+  "duration": 37578451754,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 370550340,
+>>>>>>> c837fa7bd56cc62be224e399d27d1a89cd06c15a
   "status": "passed"
 });
 });
