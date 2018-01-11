@@ -57,6 +57,11 @@ public class BasePage {
 
     public BasePage setUpBrowser(){
         driver.manage().deleteAllCookies();
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         driver.manage().window().maximize();
         return new BasePage(driver);
 
