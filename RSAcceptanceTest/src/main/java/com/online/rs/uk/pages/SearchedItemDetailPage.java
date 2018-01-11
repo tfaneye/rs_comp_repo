@@ -54,8 +54,9 @@ public class SearchedItemDetailPage extends BasePage {
     }
 
     public boolean validateFilter(String brand){
-        WebElement brandElement = driver.findElement(brandNameField);
-        return brandElement.getText().toLowerCase().contains(brand.toLowerCase());
+        return driver.getPageSource().toLowerCase().contains(brand.toLowerCase());
+       /* WebElement brandElement = driver.findElement(brandNameField);
+        return brandElement.getText().toLowerCase().contains(brand.toLowerCase());*/
     }
 
     public SearchedItemDetailPage filterByGloveSize(String gloveSize){
