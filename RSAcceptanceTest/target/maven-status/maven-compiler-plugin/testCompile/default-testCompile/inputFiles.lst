@@ -1,15 +1,7 @@
-<<<<<<< HEAD
 /home/inet-tech/JavaPracticeProjects/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/RsRunnerCukesTest.java
 /home/inet-tech/JavaPracticeProjects/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/SearchForItemByStockNumberTestSteps.java
 /home/inet-tech/JavaPracticeProjects/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/FilterSearchByGloveSizeTestSteps.java
 /home/inet-tech/JavaPracticeProjects/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/SearchForAnItemTestSteps.java
+/home/inet-tech/JavaPracticeProjects/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/FilterGloveSearchBySafetyTestSteps.java
 /home/inet-tech/JavaPracticeProjects/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/FilterASearchByBrandTestSteps.java
 /home/inet-tech/JavaPracticeProjects/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/hooks/StepHooks.java
-=======
-/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/SearchForAnItemTestSteps.java
-/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/FilterSearchByGloveSizeTestSteps.java
-/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/SearchForItemByStockNumberTestSteps.java
-/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/rs_testSteps/FilterASearchByBrandTestSteps.java
-/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/hooks/StepHooks.java
-/home/inet-tech/ProjectRepos/rs_comp_repo/RSAcceptanceTest/src/test/java/com/online/rs/uk/RsRunnerCukesTest.java
->>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f

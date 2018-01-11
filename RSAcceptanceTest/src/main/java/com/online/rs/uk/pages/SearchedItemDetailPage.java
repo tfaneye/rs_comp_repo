@@ -23,6 +23,9 @@ public class SearchedItemDetailPage extends BasePage {
     private By gloveSizeField = By.xpath("//*[@id=\"filters\"]/div/div/rs-facets/a[3]");
     private By sizeField = By.xpath("//*[@id=\"4292097927\"]/span[1]");
     private By applySizeFilter = By.xpath("//*[@id=\"filters\"]/div/div/rs-facets/div/div[2]/div/div[7]/rs-apply-button/button");
+    private By gloveMaterialField = By.xpath("//*[@id=\"filters\"]/div/div/rs-facets/a[4]");
+    private By selectGloveMaterialField = By.xpath("//*[@id=\"4293564101\"]/input");
+    private By applyGloveMaterialField = By.xpath("//*[@id=\"filters\"]/div/div/rs-facets/div/div[2]/div/div[7]/rs-apply-button/button");
 
 
     public SearchedItemDetailPage(WebDriver driver) {
@@ -66,5 +69,17 @@ public class SearchedItemDetailPage extends BasePage {
 
     public boolean validateGloveSizeFilter(String size){
         return driver.getPageSource().toLowerCase().contains(size.toLowerCase());
+    }
+
+    public SearchedItemDetailPage filterSearchByGloveMaterial(String name){
+        driver.findElement(gloveMaterialField).click();
+        driver.findElement(selectGloveMaterialField).click();
+        driver.findElement(applyGloveMaterialField).click();
+
+        return new SearchedItemDetailPage(driver);
+    }
+
+    public boolean validateFilterGloveMaterial(String gloveMaterial){
+        return driver.getPageSource().toLowerCase().contains(gloveMaterial.toLowerCase());
     }
 }

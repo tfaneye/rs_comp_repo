@@ -1,3 +1,4 @@
+com/online/rs/uk/rs_testSteps/FilterGloveSearchBySafetyTestSteps.class
 com/online/rs/uk/RsRunnerCukesTest.class
 com/online/rs/uk/rs_testSteps/FilterSearchByGloveSizeTestSteps.class
 com/online/rs/uk/rs_testSteps/SearchForAnItemTestSteps.class

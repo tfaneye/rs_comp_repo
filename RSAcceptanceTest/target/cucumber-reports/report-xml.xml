@@ -1,260 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="100.742288">
-<testcase classname="Filter search by brand name" name="Filter a search by brand name test" time="22.597928">
-<failure message="org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document&#10;  (Session info: chrome=63.0.3239.84)&#10;  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-26-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'inettech-Inspiron-15-3552', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-26-generic', java.version: '1.8.0_151'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}&#10;Session ID: 06f986fc3faddf0fc480ba785f939b03&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)&#10;&#9;at com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:63)&#10;&#9;at com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)&#10;&#9;at ✽.Then I should see the &quot;Ansell&quot; in the description(rs_features/FilterSearchByBrand.feature:10)&#10;"><![CDATA[Given I a have searched for a product by category "Reusable gloves".........passed
-When I filter by brand "Ansell".............................................passed
-Then I should see the "Ansell" in the description...........................failed
-=======
-<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="66.904869">
-<testcase classname="Filter search by brand name" name="Filter a search by brand name test" time="10.818546">
-<failure message="org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is normal&#10;  (Session info: chrome=63.0.3239.84)&#10;  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'inettech-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-104-generic', java.version: '1.8.0_111'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}&#10;Session ID: fb68a95ade1945e927aa2c39616be840&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)&#10;&#9;at com.online.rs.uk.pages.BasePage.setUpBrowser(BasePage.java:60)&#10;&#9;at com.online.rs.uk.hooks.StepHooks.setUpTest(StepHooks.java:26)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:40)&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:34)&#10;&#9;at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#10;&#9;at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#10;&#9;at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#10;&#9;at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#10;&#9;at org.junit.runners.Suite.runChild(Suite.java:128)&#10;&#9;at org.junit.runners.Suite.runChild(Suite.java:27)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;&#9;at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)&#10;&#9;at org.junit.runners.Suite.runChild(Suite.java:128)&#10;&#9;at org.junit.runners.Suite.runChild(Suite.java:27)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;&#9;at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#10;&#9;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#10;&#9;at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)&#10;&#9;at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)&#10;&#9;at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)&#10;&#9;at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)&#10;"><![CDATA[Given I a have searched for a product by category "Reusable gloves".........skipped
-When I filter by brand "Ansell".............................................skipped
-Then I should see the "Ansell" in the description...........................skipped
->>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
-=======
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="144.158886">
-<testcase classname="Filter search by brand name" name="Filter a search by brand name test" time="41.685965">
-<failure message="org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document&#10;  (Session info: chrome=63.0.3239.84)&#10;  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'inettech-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-104-generic', java.version: '1.8.0_111'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}&#10;Session ID: c32fcf90e4c064243c23fad6c5253ca7&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)&#10;&#9;at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)&#10;&#9;at com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:63)&#10;&#9;at com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)&#10;&#9;at ✽.Then I should see the &quot;Ansell&quot; in the description(rs_features/FilterSearchByBrand.feature:10)&#10;"><![CDATA[Given I a have searched for a product by category "Reusable gloves".........passed
-When I filter by brand "Ansell".............................................passed
-Then I should see the "Ansell" in the description...........................failed
->>>>>>> 7a9902b66bae79c3598acebf1b80e7a46e9b1e80
-
-StackTrace:
-org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=63.0.3239.84)
-  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.13.0-26-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'inettech-Inspiron-15-3552', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.13.0-26-generic', java.version: '1.8.0_151'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
-<<<<<<< HEAD
-<<<<<<< HEAD
-Session ID: 06f986fc3faddf0fc480ba785f939b03
-=======
-Session ID: fb68a95ade1945e927aa2c39616be840
->>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
-=======
-Session ID: c32fcf90e4c064243c23fad6c5253ca7
->>>>>>> 7a9902b66bae79c3598acebf1b80e7a46e9b1e80
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7a9902b66bae79c3598acebf1b80e7a46e9b1e80
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)
-	at com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:63)
-	at com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)
-	at ✽.Then I should see the "Ansell" in the description(rs_features/FilterSearchByBrand.feature:10)
-<<<<<<< HEAD
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="222.077631">
+<testcase classname="Filter search by Glove Material" name="Filter a search by glove material test" time="41.886261">
+<system-out><![CDATA[Given I have searched for an item by category "Reusable gloves".............passed
+When I filter by Glove Material "Acrylic"...................................passed
+Then I should see the "Acrylic" in Glove Material column....................passed
+]]></system-out>
 </testcase>
-<testcase classname="Filter search by brand name" name="Filter a search by brand name test" time="16.023189">
-<failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at com.online.rs.uk.rs_testSteps.FilterSearchByGloveSizeTestSteps.iShouldSeeTheInTheGloveSizeSection(FilterSearchByGloveSizeTestSteps.java:42)&#10;&#9;at ✽.Then I should see the &quot;One Size&quot; in the Glove Size section(rs_features/FilterSearchByGloveSize.feature:10)&#10;"><![CDATA[Given I a have searched for a particular product by category "Reusable gloves".passed
+<testcase classname="Filter search by brand name" name="Filter a search by brand name test" time="38.025456">
+<system-out><![CDATA[Given I a have searched for a product by category "Reusable gloves".........passed
+When I filter by brand "Ansell".............................................passed
+Then I should see the "Ansell" in the description...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Filter search by brand name" name="Filter a search by brand name test" time="33.355289">
+<system-out><![CDATA[Given I a have searched for a particular product by category "Reusable gloves".passed
 When I filter by glove size "One Size"......................................passed
-Then I should see the "One Size" in the Glove Size section..................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.online.rs.uk.rs_testSteps.FilterSearchByGloveSizeTestSteps.iShouldSeeTheInTheGloveSizeSection(FilterSearchByGloveSizeTestSteps.java:42)
-	at ✽.Then I should see the "One Size" in the Glove Size section(rs_features/FilterSearchByGloveSize.feature:10)
-]]></failure>
+Then I should see the "One Size" in the Glove Size section..................passed
+]]></system-out>
 </testcase>
-<testcase classname="Searching for an item by name" name="Search for an item test" time="20.986834">
+<testcase classname="Searching for an item by name" name="Search for an item test" time="42.583539">
 <system-out><![CDATA[Given I am on the home page of the application..............................passed
 When I search for an item by name...........................................passed
 Then I should be able to see the Item price.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Searching for an item byRS Stock Number using Quick Order search" name="Search for an item by stock number test" time="41.134337">
-<system-out><![CDATA[Given I am on the default page of the application...........................passed
-When I search for an item by RS stock "912-0239" and "1" and click on Add to Basket button.passed
-Then I should be able to see details of the item searched "FLIR E4 Thermal Imaging Camera, Temp Range: -20 → +250 °C 80 x 60pixel RS Cal" in the basket.passed
-]]></system-out>
-=======
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)
-	at com.online.rs.uk.pages.BasePage.setUpBrowser(BasePage.java:60)
-	at com.online.rs.uk.hooks.StepHooks.setUpTest(StepHooks.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)
-	at org.junit.runners.Suite.runChild(Suite.java:128)
-	at org.junit.runners.Suite.runChild(Suite.java:27)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-=======
->>>>>>> 7a9902b66bae79c3598acebf1b80e7a46e9b1e80
-]]></failure>
-</testcase>
-<testcase classname="Filter search by brand name" name="Filter a search by brand name test" time="24.251224">
-<failure message="java.lang.AssertionError&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#10;&#9;at com.online.rs.uk.rs_testSteps.FilterSearchByGloveSizeTestSteps.iShouldSeeTheInTheGloveSizeSection(FilterSearchByGloveSizeTestSteps.java:42)&#10;&#9;at ✽.Then I should see the &quot;One Size&quot; in the Glove Size section(rs_features/FilterSearchByGloveSize.feature:10)&#10;"><![CDATA[Given I a have searched for a particular product by category "Reusable gloves".passed
-When I filter by glove size "One Size"......................................passed
-Then I should see the "One Size" in the Glove Size section..................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at com.online.rs.uk.rs_testSteps.FilterSearchByGloveSizeTestSteps.iShouldSeeTheInTheGloveSizeSection(FilterSearchByGloveSizeTestSteps.java:42)
-	at ✽.Then I should see the "One Size" in the Glove Size section(rs_features/FilterSearchByGloveSize.feature:10)
-]]></failure>
-</testcase>
-<<<<<<< HEAD
-<testcase classname="Searching for an item by name" name="Search for an item test" time="3.366952">
-<failure message="org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is normal&#10;  (Session info: chrome=63.0.3239.84)&#10;  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'&#10;System info: host: 'inettech-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-104-generic', java.version: '1.8.0_111'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}&#10;Session ID: c5735f8087b7adaa6f7b3f8bad23e1e7&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)&#10;&#9;at com.online.rs.uk.pages.BasePage.setUpBrowser(BasePage.java:60)&#10;&#9;at com.online.rs.uk.hooks.StepHooks.setUpTest(StepHooks.java:26)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at cucumber.runtime.Utils$1.call(Utils.java:40)&#10;&#9;at cucumber.runtime.Timeout.timeout(Timeout.java:16)&#10;&#9;at cucumber.runtime.Utils.invoke(Utils.java:34)&#10;&#9;at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)&#10;&#9;at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)&#10;&#9;at cucumber.runtime.Runtime.runHooks(Runtime.java:212)&#10;&#9;at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#10;&#9;at org.junit.runner.JUnitCore.run(JUnitCore.java:137)&#10;&#9;at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)&#10;&#9;at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)&#10;&#9;at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)&#10;&#9;at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#9;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;&#9;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;&#9;at java.lang.reflect.Method.invoke(Method.java:498)&#10;&#9;at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)&#10;"><![CDATA[Given I am on the home page of the application..............................skipped
-When I search for an item by name...........................................skipped
-Then I should be able to see the Item price.................................skipped
-
-StackTrace:
-org.openqa.selenium.WebDriverException: unknown error: failed to change window state to maximized, current state is normal
-  (Session info: chrome=63.0.3239.84)
-  (Driver info: chromedriver=2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform=Linux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
-System info: host: 'inettech-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-104-generic', java.version: '1.8.0_111'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}
-Session ID: c5735f8087b7adaa6f7b3f8bad23e1e7
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:891)
-	at com.online.rs.uk.pages.BasePage.setUpBrowser(BasePage.java:60)
-	at com.online.rs.uk.hooks.StepHooks.setUpTest(StepHooks.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at cucumber.runtime.Utils$1.call(Utils.java:40)
-	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-	at cucumber.runtime.Utils.invoke(Utils.java:34)
-	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
-	at cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)
-	at cucumber.runtime.Runtime.runHooks(Runtime.java:212)
-	at cucumber.runtime.Runtime.runBeforeHooks(Runtime.java:202)
-	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:40)
-	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
-	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
-	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
-	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117)
-	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
-	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262)
-	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
-]]></failure>
->>>>>>> cde6c4abc8a80094496d3a96ab3e83f951eeef2f
-=======
-<testcase classname="Searching for an item by name" name="Search for an item test" time="29.295842">
-<system-out><![CDATA[Given I am on the home page of the application..............................passed
-When I search for an item by name...........................................passed
-Then I should be able to see the Item price.................................passed
-]]></system-out>
->>>>>>> 7a9902b66bae79c3598acebf1b80e7a46e9b1e80
-</testcase>
-<testcase classname="Searching for an item byRS Stock Number using Quick Order search" name="Search for an item by stock number test" time="48.925855">
+<testcase classname="Searching for an item byRS Stock Number using Quick Order search" name="Search for an item by stock number test" time="66.227086">
 <system-out><![CDATA[Given I am on the default page of the application...........................passed
 When I search for an item by RS stock "912-0239" and "1" and click on Add to Basket button.passed
 Then I should be able to see details of the item searched "FLIR E4 Thermal Imaging Camera, Temp Range: -20 → +250 °C 80 x 60pixel RS Cal" in the basket.passed
