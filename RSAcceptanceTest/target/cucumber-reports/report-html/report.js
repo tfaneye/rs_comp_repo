@@ -63,7 +63,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 14778127752,
+  "duration": 9544243582,
   "status": "passed"
 });
 formatter.scenario({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "FilterGloveSearchBySafetyTestSteps.iHaveSearchedForAnItemByCategory(String)"
 });
 formatter.result({
-  "duration": 20130604800,
+  "duration": 18297685487,
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "FilterGloveSearchBySafetyTestSteps.iFilterByGloveMaterial(String)"
 });
 formatter.result({
-  "duration": 4720604548,
+  "duration": 3595098182,
   "status": "passed"
 });
 formatter.match({
@@ -140,11 +140,11 @@ formatter.match({
   "location": "FilterGloveSearchBySafetyTestSteps.iShouldSeeTheInGloveMaterialColumn(String)"
 });
 formatter.result({
-  "duration": 1905301127,
+  "duration": 1226990504,
   "status": "passed"
 });
 formatter.after({
-  "duration": 351622793,
+  "duration": 608764595,
   "status": "passed"
 });
 formatter.uri("rs_features/FilterSearchByBrand.feature");
@@ -212,7 +212,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 7207951259,
+  "duration": 8714332291,
   "status": "passed"
 });
 formatter.scenario({
@@ -263,7 +263,7 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iAHaveSearchedForAProductByCategory(String)"
 });
 formatter.result({
-  "duration": 23374602835,
+  "duration": 11164753288,
   "status": "passed"
 });
 formatter.match({
@@ -276,7 +276,7 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iFilterByBrand(String)"
 });
 formatter.result({
-  "duration": 3678364753,
+  "duration": 2754903538,
   "status": "passed"
 });
 formatter.match({
@@ -289,11 +289,12 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(String)"
 });
 formatter.result({
-  "duration": 3454617379,
-  "status": "passed"
+  "duration": 2243370649,
+  "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d63.0.3239.84)\n  (Driver info: chromedriver\u003d2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform\u003dLinux 4.13.0-26-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027inettech-Inspiron-15-3552\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.13.0-26-generic\u0027, java.version: \u00271.8.0_151\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}\nSession ID: db1b6cda658db995bc5f14350a9900b4\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)\n\tat com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:58)\n\tat com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)\n\tat ✽.Then I should see the \"Ansell\" in the description(rs_features/FilterSearchByBrand.feature:10)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 309919659,
+  "duration": 185002127,
   "status": "passed"
 });
 formatter.uri("rs_features/FilterSearchByGloveSize.feature");
@@ -361,7 +362,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 7206403053,
+  "duration": 6916019617,
   "status": "passed"
 });
 formatter.scenario({
@@ -412,7 +413,7 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iAHaveSearchedForAParticularProductByCategory(String)"
 });
 formatter.result({
-  "duration": 20968474640,
+  "duration": 11822408306,
   "status": "passed"
 });
 formatter.match({
@@ -425,7 +426,7 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iFilterByGloveSize(String)"
 });
 formatter.result({
-  "duration": 3345204885,
+  "duration": 2285385209,
   "status": "passed"
 });
 formatter.match({
@@ -438,11 +439,11 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iShouldSeeTheInTheGloveSizeSection(String)"
 });
 formatter.result({
-  "duration": 1607426631,
+  "duration": 859961104,
   "status": "passed"
 });
 formatter.after({
-  "duration": 227779372,
+  "duration": 279637463,
   "status": "passed"
 });
 formatter.uri("rs_features/SearchForAnItemByName.feature");
@@ -460,7 +461,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7323328119,
+  "duration": 6956287808,
   "status": "passed"
 });
 formatter.scenario({
@@ -518,25 +519,25 @@ formatter.match({
   "location": "SearchForAnItemTestSteps.iAmOnTheHomePageOfTheApplication()"
 });
 formatter.result({
-  "duration": 9957811957,
+  "duration": 4719061328,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchForAnItemTestSteps.iSearchForAnItemByName(DataTable)"
 });
 formatter.result({
-  "duration": 23603036090,
+  "duration": 13367827473,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchForAnItemTestSteps.iShouldBeAbleToSeeTheItemPrice(DataTable)"
 });
 formatter.result({
-  "duration": 1321444416,
+  "duration": 580938064,
   "status": "passed"
 });
 formatter.after({
-  "duration": 377918747,
+  "duration": 269554604,
   "status": "passed"
 });
 formatter.uri("rs_features/SearchForItemByRSStockNumber.feature");
@@ -554,7 +555,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7842963256,
+  "duration": 6214204545,
   "status": "passed"
 });
 formatter.scenario({
@@ -584,7 +585,7 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iAmOnTheDefaultPageOfTheApplication()"
 });
 formatter.result({
-  "duration": 8654571620,
+  "duration": 4972236009,
   "status": "passed"
 });
 formatter.match({
@@ -601,7 +602,7 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iSearchForAnItemByRSStockAndAndClickOnAddToBasketButton(String,String)"
 });
 formatter.result({
-  "duration": 11780549221,
+  "duration": 6867413389,
   "status": "passed"
 });
 formatter.match({
@@ -614,11 +615,11 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iShouldBeAbleToSeeDetailsOfTheItemSearchedInTheBasket(String)"
 });
 formatter.result({
-  "duration": 37578451754,
+  "duration": 27218053148,
   "status": "passed"
 });
 formatter.after({
-  "duration": 370550340,
+  "duration": 169571542,
   "status": "passed"
 });
 });
