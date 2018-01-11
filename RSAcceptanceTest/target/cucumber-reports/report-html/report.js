@@ -63,7 +63,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 16313865980,
+  "duration": 12441493193,
   "status": "passed"
 });
 formatter.scenario({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iAHaveSearchedForAProductByCategory(String)"
 });
 formatter.result({
-  "duration": 18169396103,
+  "duration": 17023856696,
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iFilterByBrand(String)"
 });
 formatter.result({
-  "duration": 3994818451,
+  "duration": 2289336672,
   "status": "passed"
 });
 formatter.match({
@@ -140,12 +140,12 @@ formatter.match({
   "location": "FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(String)"
 });
 formatter.result({
-  "duration": 3033051304,
-  "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d63.0.3239.84)\n  (Driver info: chromedriver\u003d2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform\u003dLinux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027inettech-VirtualBox\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.4.0-104-generic\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}\nSession ID: c32fcf90e4c064243c23fad6c5253ca7\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)\n\tat com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:63)\n\tat com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)\n\tat ✽.Then I should see the \"Ansell\" in the description(rs_features/FilterSearchByBrand.feature:10)\n",
+  "duration": 2121820028,
+  "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: chrome\u003d63.0.3239.84)\n  (Driver info: chromedriver\u003d2.33.506092 (733a02544d189eeb751fe0d7ddca79a0ee28cce4),platform\u003dLinux 4.4.0-104-generic x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00273.7.1\u0027, revision: \u00278a0099a\u0027, time: \u00272017-11-06T21:01:39.354Z\u0027\nSystem info: host: \u0027inettech-VirtualBox\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.4.0-104-generic\u0027, java.version: \u00271.8.0_111\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.33.506092 (733a02544d189e..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.84, webStorageEnabled: true}\nSession ID: d6417f8f6eb8c1f4534014857db534e3\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)\n\tat org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:160)\n\tat com.online.rs.uk.pages.SearchedItemDetailPage.validateFilter(SearchedItemDetailPage.java:55)\n\tat com.online.rs.uk.rs_testSteps.FilterASearchByBrandTestSteps.iShouldSeeTheInTheDescription(FilterASearchByBrandTestSteps.java:40)\n\tat ✽.Then I should see the \"Ansell\" in the description(rs_features/FilterSearchByBrand.feature:10)\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 174833537,
+  "duration": 278462124,
   "status": "passed"
 });
 formatter.uri("rs_features/FilterSearchByGloveSize.feature");
@@ -213,7 +213,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 6330651998,
+  "duration": 5899859916,
   "status": "passed"
 });
 formatter.scenario({
@@ -264,7 +264,7 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iAHaveSearchedForAParticularProductByCategory(String)"
 });
 formatter.result({
-  "duration": 12959881222,
+  "duration": 16619959117,
   "status": "passed"
 });
 formatter.match({
@@ -277,7 +277,7 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iFilterByGloveSize(String)"
 });
 formatter.result({
-  "duration": 3236216569,
+  "duration": 2296406840,
   "status": "passed"
 });
 formatter.match({
@@ -290,12 +290,11 @@ formatter.match({
   "location": "FilterSearchByGloveSizeTestSteps.iShouldSeeTheInTheGloveSizeSection(String)"
 });
 formatter.result({
-  "duration": 987056435,
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat org.junit.Assert.assertTrue(Assert.java:52)\n\tat com.online.rs.uk.rs_testSteps.FilterSearchByGloveSizeTestSteps.iShouldSeeTheInTheGloveSizeSection(FilterSearchByGloveSizeTestSteps.java:42)\n\tat ✽.Then I should see the \"One Size\" in the Glove Size section(rs_features/FilterSearchByGloveSize.feature:10)\n",
-  "status": "failed"
+  "duration": 897973134,
+  "status": "passed"
 });
 formatter.after({
-  "duration": 737417877,
+  "duration": 167627175,
   "status": "passed"
 });
 formatter.uri("rs_features/SearchForAnItemByName.feature");
@@ -313,7 +312,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 5916191468,
+  "duration": 5649055941,
   "status": "passed"
 });
 formatter.scenario({
@@ -371,25 +370,26 @@ formatter.match({
   "location": "SearchForAnItemTestSteps.iAmOnTheHomePageOfTheApplication()"
 });
 formatter.result({
-  "duration": 5694595545,
+  "duration": 5528817028,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchForAnItemTestSteps.iSearchForAnItemByName(DataTable)"
 });
 formatter.result({
-  "duration": 16644498793,
+  "duration": 13439486449,
   "status": "passed"
 });
 formatter.match({
   "location": "SearchForAnItemTestSteps.iShouldBeAbleToSeeTheItemPrice(DataTable)"
 });
 formatter.result({
-  "duration": 763262448,
-  "status": "passed"
+  "duration": 448252298,
+  "error_message": "java.lang.AssertionError: no such price expected:\u003c£11.01\u003e but was:\u003cnull\u003e\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\n\tat org.junit.Assert.assertEquals(Assert.java:118)\n\tat com.online.rs.uk.rs_testSteps.SearchForAnItemTestSteps.iShouldBeAbleToSeeTheItemPrice(SearchForAnItemTestSteps.java:51)\n\tat ✽.Then I should be able to see the Item price(rs_features/SearchForAnItemByName.feature:12)\n",
+  "status": "failed"
 });
 formatter.after({
-  "duration": 277293544,
+  "duration": 249243088,
   "status": "passed"
 });
 formatter.uri("rs_features/SearchForItemByRSStockNumber.feature");
@@ -407,7 +407,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 6420647316,
+  "duration": 6054513350,
   "status": "passed"
 });
 formatter.scenario({
@@ -437,7 +437,7 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iAmOnTheDefaultPageOfTheApplication()"
 });
 formatter.result({
-  "duration": 5115172329,
+  "duration": 10471519053,
   "status": "passed"
 });
 formatter.match({
@@ -454,7 +454,7 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iSearchForAnItemByRSStockAndAndClickOnAddToBasketButton(String,String)"
 });
 formatter.result({
-  "duration": 9456308807,
+  "duration": 7773388583,
   "status": "passed"
 });
 formatter.match({
@@ -467,11 +467,11 @@ formatter.match({
   "location": "SearchForItemByStockNumberTestSteps.iShouldBeAbleToSeeDetailsOfTheItemSearchedInTheBasket(String)"
 });
 formatter.result({
-  "duration": 27633789883,
+  "duration": 25713554769,
   "status": "passed"
 });
 formatter.after({
-  "duration": 299936665,
+  "duration": 228789720,
   "status": "passed"
 });
 });
